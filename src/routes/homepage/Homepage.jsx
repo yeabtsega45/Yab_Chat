@@ -13,8 +13,8 @@ const Homepage = () => {
         <h1>YABU AI</h1>
         <h2>Supercharge your creativity and productivity</h2>
         <h3>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat sint
-          dolorem doloribus, architecto dolor.
+          YABU AI is a cutting-edge platform that harnesses the power of AI to
+          revolutionize your creative and productivity workflows.
         </h3>
         <Link to="/dashboard">Get Started</Link>
       </div>
@@ -38,22 +38,22 @@ const Homepage = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Human:We produce food for Mice",
+                "Human:Hi!",
                 2000,
                 () => {
                   setTypingStatus("bot");
                 },
-                "Bot:We produce food for Hamsters",
+                "Bot:Hello! How can I assist you today?",
                 2000,
                 () => {
                   setTypingStatus("human2");
                 },
-                "Human2:We produce food for Guinea Pigs",
+                "Human2:Who are you?",
                 2000,
                 () => {
                   setTypingStatus("bot");
                 },
-                "Bot:We produce food for Chinchillas",
+                "Bot:I am YABU AI, your personal assistant. How can I help you today?",
                 2000,
                 () => {
                   setTypingStatus("human1");
